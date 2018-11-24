@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.junit.Test;
 
-public class Optionals {
+public class G_Optionals {
 
   @Test
   public void npe() {

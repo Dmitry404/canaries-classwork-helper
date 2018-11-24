@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.junit.Test;
 
-public class Streams {
+public class F_Streams {
 
   @Test
   public void simpleExample() throws IOException {

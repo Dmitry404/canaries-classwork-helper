@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import org.junit.Test;
 
-public class Functions {
+public class E_Functions {
 
   @Test
   public void asLambda() {

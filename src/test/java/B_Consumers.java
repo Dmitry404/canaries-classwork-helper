@@ -11,7 +11,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class Consumers {
+public class B_Consumers {
 
   private final ByteArrayOutputStream output = new ByteArrayOutputStream();
 

@@ -3,7 +3,7 @@ import static org.assertj.core.api.Java6Assertions.assertThat;
 import java.util.function.Supplier;
 import org.junit.Test;
 
-public class Lambdas {
+public class A_Lambdas {
   @Test
   public void anonymousClasses() {
     Reader reader = new Reader() {
@@ -97,11 +97,11 @@ public class Lambdas {
 
   @Test
   public void methodReference() {
-    Lambdas obj = new Lambdas();
+    A_Lambdas obj = new A_Lambdas();
 
     Reader reader1 = this::readString;
     Reader reader2 = obj::readString;
-    Reader reader3 = Lambdas::readStringStatic;
+    Reader reader3 = A_Lambdas::readStringStatic;
 
     //Reader reader4 = String::strip;
     Reader reader4 = String::new;

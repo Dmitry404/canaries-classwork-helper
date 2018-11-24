@@ -3,7 +3,7 @@ import static org.assertj.core.api.Java6Assertions.assertThat;
 import java.util.Comparator;
 import org.junit.Test;
 
-public class Comparators {
+public class D_Comparators {
 
   @Test
   public void asAnonymousClass() {
